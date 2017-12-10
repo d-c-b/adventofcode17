@@ -1,4 +1,4 @@
-with open('input_d1.txt', 'r') as f:
+with open('input_d1.txt', 'rU') as f:
   captcha = f.read()
 
 captcha_count = 0

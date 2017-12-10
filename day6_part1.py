@@ -1,4 +1,4 @@
-with open('input_d6.txt', 'r') as f:
+with open('input_d6.txt', 'rU') as f:
   mem_banks = f.read().split('\t')
 
 mem_banks = map(int, mem_banks)

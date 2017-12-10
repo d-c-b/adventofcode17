@@ -1,7 +1,5 @@
-import numpy as np 
-
-with open('input_d4.txt', 'r') as f:
-  passwords = f.read().split('\r\n')
+with open('input_d4.txt', 'rU') as f:
+  passwords = f.read().split('\n')
 
 invalid_passwords = 0
 

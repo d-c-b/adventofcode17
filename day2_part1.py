@@ -1,6 +1,6 @@
 import numpy as np
 checksum = 0
-f = open('input_d2.txt', 'r')
+f = open('input_d2.txt', 'rU')
 
 lines = np.loadtxt(f)
 

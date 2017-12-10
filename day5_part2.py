@@ -1,5 +1,5 @@
 # This code takes a while to run! ~ 5 mins
-with open('input_d5.txt', 'r') as f:
+with open('input_d5.txt', 'rU') as f:
   jump_list = f.read().split()
 
 count = 0
